@@ -1,1 +1,79 @@
-Hello World
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nak Hyun Jung, Ph.D. — Research & Strategy</title>
+  <meta name="description" content="AI-driven Finance & Global Strategy — Research Professor & PhD" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <header class="max-w-5xl mx-auto px-6 py-10">
+    <div class="flex items-center gap-6">
+      <img src="assets/profile.jpg" alt="Dr. Jung" class="w-24 h-24 rounded-full object-cover border" />
+      <div>
+        <h1 class="text-3xl font-bold">Nak Hyun Jung, Ph.D.</h1>
+        <p class="text-gray-600">Research Professor (IPS) · Visiting Professor (aSSIST) </p>
+        <p class="text-gray-600">AI-driven Finance · Time-Series · Global Strategy</p>
+      </div>
+    </div>
+    <nav class="mt-6 flex flex-wrap gap-4 text-sm">
+      <a href="#research" class="underline">Research</a>
+      <a href="#publications" class="underline">Publications</a>
+      <a href="#teaching" class="underline">Teaching</a>
+      <a href="#projects" class="underline">Projects</a>
+      <a href="#news" class="underline">News</a>
+      <a href="#contact" class="underline">Contact</a>
+    </nav>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 space-y-14 pb-16">
+    <section id="research">
+      <h2 class="text-2xl font-semibold mb-3">Research Focus</h2>
+      <ul class="list-disc pl-6 space-y-1">
+        <li>Asset Allocation </li>
+        <li>Neural Networks for Time-Series Forecasting</li>
+        <li>AI-based Composite Supplementary Index (ACSI)</li>
+        <li>Factor-based DRL (DREAM) & Beta-Adaptive RL</li>
+        <li>K-POP</li>
+      </ul>
+    </section>
+
+
+    <section id="teaching">
+      <h2 class="text-2xl font-semibold mb-3">Teaching</h2>
+      <ul class="list-disc pl-6 space-y-1">
+        <li>aSSIST: Time-Series & AI Big-Data (Prophet/ARIMA, ARCH/GARCH, VAR, DRL)</li>
+        <li>Public Lectures: AI for Finance, Time-Series Lab</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2 class="text-2xl font-semibold mb-3">Projects & Code</h2>
+      <ul class="list-disc pl-6 space-y-1">
+        <li><a class="underline" href="https://github.com/nhjung-phd/TimeSeriesAnalysis">TimeSeriesAnalysis (GitHub)</a></li>
+        <li>Interactive Dashboards (Tailwind/Chart.js · WIP)</li>
+      </ul>
+    </section>
+
+    <section id="news">
+      <h2 class="text-2xl font-semibold mb-3">News</h2>
+      <ul class="list-disc pl-6 space-y-1 text-sm">
+        <li>[2025-09-11] LLM-based portfolio paper experiments completed.</li>
+        <li>[2025-09-03] BBC Learning English EP247 listening notes added.</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2 class="text-2xl font-semibold mb-3">Contact</h2>
+      <p>Email: <a class="underline" href="mailto:your.email@example.com">your.email@example.com</a></p>
+      <p>LinkedIn / Google Scholar / ORCID (add links)</p>
+    </section>
+  </main>
+
+  <footer class="text-center text-xs text-gray-500 py-10">
+    © <span id="y"></span> Nak Hyun Jung. Powered by GitHub Pages.
+  </footer>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
