@@ -8,12 +8,14 @@
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-50 text-gray-900">
+  <!-- ===== HEADER ===== -->
   <header class="max-w-5xl mx-auto px-6 py-10">
     <div class="flex items-center gap-6">
+      <!-- 프로필 사진 (Scholar 사진을 직접 저장 후 /assets/profile.jpg 로 업로드하세요) -->
       <img src="assets/profile.jpg" alt="Dr. Jung" class="w-24 h-24 rounded-full object-cover border" />
       <div>
         <h1 class="text-3xl font-bold">Nak Hyun Jung, Ph.D.</h1>
-        <p class="text-gray-600">Research Professor (IPS) · Visiting Professor (aSSIST) </p>
+        <p class="text-gray-600">Research Professor (IPS) · Visiting Professor (aSSIST)</p>
         <p class="text-gray-600">AI-driven Finance · Time-Series · Global Strategy</p>
       </div>
     </div>
@@ -27,19 +29,60 @@
     </nav>
   </header>
 
+  <!-- ===== MAIN CONTENT ===== -->
   <main class="max-w-5xl mx-auto px-6 space-y-14 pb-16">
+    <!-- Research -->
     <section id="research">
       <h2 class="text-2xl font-semibold mb-3">Research Focus</h2>
       <ul class="list-disc pl-6 space-y-1">
-        <li>Asset Allocation </li>
+        <li>Asset Allocation</li>
         <li>Neural Networks for Time-Series Forecasting</li>
         <li>AI-based Composite Supplementary Index (ACSI)</li>
         <li>Factor-based DRL (DREAM) & Beta-Adaptive RL</li>
-        <li>K-POP</li>
+        <li>K-POP Globalization Studies</li>
       </ul>
     </section>
 
+    <!-- Publications -->
+    <section id="publications">
+      <h2 class="text-2xl font-semibold mb-3">Selected Publications</h2>
+      <ul class="list-disc pl-6 space-y-2 text-sm">
+        <li>
+          <a href="https://doi.org/10.17549/gbfr.2024.29.7.1" class="underline">
+            AI-based Pairs Trading Strategies: A Novel Approach to Stock Selection
+          </a>, 
+          <em>Global Business Finance Review</em>, 2024-08-31  
+          (DOI: 10.17549/gbfr.2024.29.7.1)
+        </li>
+        <li>
+          <a href="https://doi.org/10.22834/PDS.2024.17.1.48" class="underline">
+            Global Market Expansion Strategy for Securities Firms: A Case Study of Mirae Asset Securities
+          </a>, 
+          <em>Journal of Creativity and Innovation</em>, 2024-03  
+          (DOI: 10.22834/PDS.2024.17.1.48)
+        </li>
+        <li>
+          <a href="https://doi.org/10.7469/JKSQM.2023.51.4.573" class="underline">
+            A Study on DRL-based Efficient Asset Allocation Model for Economic Cycle-based Portfolio Optimization
+          </a>, 
+          <em>Journal of Korean Society for Quality Management</em>, 2023-12-31  
+          (DOI: 10.7469/JKSQM.2023.51.4.573)
+        </li>
+        <li>
+          <a href="https://doi.org/10.7469/JKSQM.2023.51.3.363" class="underline">
+            A Study on AI-based Composite Supplementary Index for Complementing the Composite Index of Business Indicators
+          </a>, 
+          <em>Journal of Korean Society for Quality Management</em>, 2023-09-30  
+          (DOI: 10.7469/JKSQM.2023.51.3.363)
+        </li>
+      </ul>
+      <p class="mt-2 text-xs text-gray-500">
+        Full list available at 
+        <a href="https://scholar.google.co.kr/citations?user=j8Rj_CAAAAAJ&hl=ko" class="underline">Google Scholar</a>.
+      </p>
+    </section>
 
+    <!-- Teaching -->
     <section id="teaching">
       <h2 class="text-2xl font-semibold mb-3">Teaching</h2>
       <ul class="list-disc pl-6 space-y-1">
@@ -48,6 +91,7 @@
       </ul>
     </section>
 
+    <!-- Projects -->
     <section id="projects">
       <h2 class="text-2xl font-semibold mb-3">Projects & Code</h2>
       <ul class="list-disc pl-6 space-y-1">
@@ -55,20 +99,27 @@
       </ul>
     </section>
 
+    <!-- News -->
     <section id="news">
       <h2 class="text-2xl font-semibold mb-3">News</h2>
       <ul class="list-disc pl-6 space-y-1 text-sm">
-        <li>[2025-09-11] test completed.</li>
+        <li>[2025-09-11] Test completed.</li>
       </ul>
     </section>
 
+    <!-- Contact -->
     <section id="contact">
       <h2 class="text-2xl font-semibold mb-3">Contact</h2>
-      <p>Email: <a class="underline" href="mailto:your.email@example.com">your.email@example.com</a></p>
-      <p>LinkedIn / Google Scholar / ORCID (add links)</p>
+      <p>Email: <a class="underline" href="mailto:nhjung.phd@gmail.com">nhjung.phd@gmail.com</a></p>
+      <div class="flex gap-4 mt-2 text-sm">
+        <a class="underline" href="https://scholar.google.co.kr/citations?user=j8Rj_CAAAAAJ&hl=ko">Google Scholar</a>
+        <a class="underline" href="https://orcid.org/0009-0007-7390-1714">ORCID</a>
+        <a class="underline" href="https://www.linkedin.com/in/nhjung74/">LinkedIn</a>
+      </div>
     </section>
   </main>
 
+  <!-- ===== FOOTER ===== -->
   <footer class="text-center text-xs text-gray-500 py-10">
     © <span id="y"></span> Nak Hyun Jung. Powered by GitHub Pages.
   </footer>
